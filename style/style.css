@@ -304,12 +304,12 @@ main{
 }
 
 .main_form{
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 50px 155px 78px;
     display: grid;
-    grid-template-columns: repeat(4, 242px);
-    grid-template-rows: repeat(3, 60px);
+    grid-template-columns: repeat(4, 245px);
+    grid-template-rows: repeat(3, 67px);
 }
 
 .form-1{
@@ -343,10 +343,12 @@ main{
 }
 
 .form-6{
+    position: relative;
     grid-column: 4;
     grid-row: 2;
     width: 238px;
     height: 56px;
+    right: 3px;
 }
 
 .form-7{
@@ -381,6 +383,7 @@ main{
     position: relative;
     width: 238px;
     height: 56px;
+    right: 3px;
 }
 
 .fa-calendar{
@@ -598,4 +601,8 @@ footer{
     color: #4E6BA4;
     font-size: 20px;
     border-radius: 50%;
+}
+
+.placeholder{
+    /* padding-left: 24px; */
 }
